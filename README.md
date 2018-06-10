@@ -1,5 +1,6 @@
 # Multiscale-Super-Spectral  
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1286315.svg)](https://doi.org/10.5281/zenodo.1286315)
 [![AUR](https://img.shields.io/aur/license/yaourt.svg?style=plastic)](LICENSE)   
 
 ***
