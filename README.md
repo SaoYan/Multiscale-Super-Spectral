@@ -4,12 +4,12 @@
 [![AUR](https://img.shields.io/aur/license/yaourt.svg?style=plastic)](LICENSE)   
 
 ***
+[Paper (preprint)](https://arxiv.org/abs/1806.03575)  
+[Project webpabe](https://saoyan.github.io/super-spectral/)  
+
 **Bachelor's Thesis**  
 [English Version](https://saoyan.github.io/assets/Bachelor-Thesis/Bachelor-Thesis.pdf)  
 [Chinese Version (Unofficial)](https://saoyan.github.io/assets/Bachelor-Thesis/Bachelor-Thesis-CHN.pdf)  
-
-**Project webpabe**  
-[Spectral Super-resolution from Single RGB Image Using Multi-scale CNN](https://saoyan.github.io/super-spectral/)
 
 ***
 
