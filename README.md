@@ -6,7 +6,7 @@
 # [Accurate Spectral Super-resolution from Single RGB Image Using Multi-scale CNN](https://arxiv.org/abs/1806.03575)
 
 ***
-[**Project webpabe**](https://saoyan.github.io/super-spectral/)  
+[**Project webpabe**](https://saoyan.github.io/posts/2018/06/09)  
 
 **Bachelor's Thesis**  
 [English Version](https://saoyan.github.io/assets/Bachelor-Thesis/Bachelor-Thesis.pdf)  
