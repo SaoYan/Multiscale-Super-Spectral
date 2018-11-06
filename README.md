@@ -8,14 +8,14 @@
 ***
 **Cite our work**  
 
-@inproceedings{yan2018accurate,  
-  title={Accurate Spectral Super-Resolution from Single RGB Image Using Multi-scale CNN},   
-  author={Yan, Yiqi and Zhang, Lei and Li, Jun and Wei, Wei and Zhang, Yanning},  
-  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},   
-  pages={206--217},   
-  year={2018},   
-  organization={Springer}   
-}   
+> @inproceedings{yan2018accurate,  
+>   title={Accurate Spectral Super-Resolution from Single RGB Image Using Multi-scale CNN},  
+>   author={Yan, Yiqi and Zhang, Lei and Li, Jun and Wei, Wei and Zhang, Yanning},  
+>   booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},  
+>   pages={206--217},  
+>   year={2018},  
+>   organization={Springer}  
+> } 
 
 [**Project webpabe**](https://saoyan.github.io/posts/2018/06/09)  
 
