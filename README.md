@@ -7,7 +7,14 @@
 
 ***
 **Cite our work**  
-Yiqi Yan, Lei Zhang, Jun Li, Wei Wei, and Yanning Zhang. *Accurate Spectral Super-resolution from Single RGB Image Using Multi-scale CNN.* In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2018.
+@inproceedings{yan2018accurate,
+  title={Accurate Spectral Super-Resolution from Single RGB Image Using Multi-scale CNN},
+  author={Yan, Yiqi and Zhang, Lei and Li, Jun and Wei, Wei and Zhang, Yanning},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={206--217},
+  year={2018},
+  organization={Springer}
+}
 
 [**Project webpabe**](https://saoyan.github.io/posts/2018/06/09)  
 
