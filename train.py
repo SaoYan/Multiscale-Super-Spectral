@@ -74,7 +74,7 @@ def main():
             W = real_hyper.size(3)
             real_hyper, real_rgb = Variable(real_hyper.cuda()), Variable(real_rgb.cuda())
             # train
-            fake_hyper = model.forward(real_rgb)
+            fake_hyper = model(real_rgb)
             loss = criterion(fake_hyper, real_hyper)
             loss.backward()
             optimizer.step()
@@ -82,7 +82,7 @@ def main():
                 # result
                 model.eval()
                 with torch.no_grad():
-                    fake_hyper = model.forward(real_rgb)
+                    fake_hyper = model(real_rgb)
                 RMSE = batch_RMSE(real_hyper, fake_hyper)
                 RMSE_G = batch_RMSE_G(real_hyper, fake_hyper)
                 rRMSE = batch_rRMSE(real_hyper, fake_hyper)
@@ -114,7 +114,7 @@ def main():
                     real_hyper, real_rgb = Variable(real_hyper.cuda()), Variable(real_rgb.cuda())
                     # forward
                     with torch.no_grad():
-                        fake_hyper = model.forward(real_rgb)
+                        fake_hyper = model(real_rgb)
                     # metrics
                     RMSE = batch_RMSE(real_hyper, fake_hyper)
                     RMSE_G = batch_RMSE_G(real_hyper, fake_hyper)
@@ -139,7 +139,7 @@ def main():
         # plot spectrum
         print("\nplotting spectrum ...\n")
         with torch.no_grad():
-            fake_hyper = model.forward(real_rgb)
+            fake_hyper = model(real_rgb)
         real_spectrum = real_hyper.data.cpu().numpy()[0,:,int(H/2),int(W/2)]
         fake_spectrum = fake_hyper.data.cpu().numpy()[0,:,int(H/2),int(W/2)]
         I_spectrum = plot_spectrum(real_spectrum, fake_spectrum)
