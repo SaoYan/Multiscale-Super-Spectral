@@ -86,7 +86,7 @@ def main():
         real_hyper, real_rgb = Variable(real_hyper.cuda()), Variable(real_rgb.cuda())
         # forward
         with torch.no_grad():
-            fake_hyper = model.forward(real_rgb)
+            fake_hyper = model(real_rgb)
         # metrics
         RMSE = batch_RMSE(real_hyper, fake_hyper)
         RMSE_G = batch_RMSE_G(real_hyper, fake_hyper)
