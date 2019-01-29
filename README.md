@@ -19,10 +19,6 @@
 
 [**Project webpabe**](https://saoyan.github.io/posts/2018/06/09)  
 
-**Bachelor's Thesis**  
-[English Version](https://saoyan.github.io/assets/Bachelor-Thesis/Bachelor-Thesis.pdf)  
-[Chinese Version (Unofficial)](https://saoyan.github.io/assets/Bachelor-Thesis/Bachelor-Thesis-CHN.pdf)  
-
 ***
 
 ## Pre-trained models  
